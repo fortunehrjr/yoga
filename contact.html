@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Dongle:wght@300&family=Lato:wght@700&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>contact</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+</head>
+<body>
+    <nav>
+      <h1 class="logo">YOGA</h1>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="./download.html">store</a></li>
+      </ul>
+      <label id="icon">
+        <svg
+          id="Layer_1"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 104.35 66.78"
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #231f20;
+                stroke-miterlimit: 10;
+                stroke-width: 7px;
+              }
+            </style>
+          </defs>
+          <title>Untitled-1</title>
+          <line class="cls-1" y1="3.5" x2="104.35" y2="3.5" />
+          <line class="cls-1" x1="104.35" y1="33.39" y2="33.39" />
+          <line class="cls-1" y1="63.28" x2="104.35" y2="63.28" />
+        </svg>
+      </label>
+    </nav>  
+    <div class="grid">
+        <section class="one">
+            <h1>Contact us </h1>
+            <div class="row">
+                <input class="int" action="text" type='name' placeholder="Name"></input>
+                <input class='move int mail' action="text" type='email' placeholder="Email"></input>
+            </div>
+            <div class="row-2">
+                <input class="message" action="text" type='text' placeholder="Message"></input>
+                <br>
+                <a href="">
+                <button>SEND</button>
+                </a>
+            </div>
+            
+            <div class="text">
+                <h6>GET SOCIAL</h6>
+                <p>
+                    Get more free information by visiting our twitter and facebook page @YogaCanada
+                </p>
+            </div>
+            <div class="text-2">
+                <h6>
+                    SEND US A MESSAGE
+                </h6>
+                <P>
+                    info@yoga.ca
+                </P>
+            </div>
+            
+        </section>
+        <section class="two">
+            <div class="picture">
+                <img src="./images/contact-pic.png" alt=""> 
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>

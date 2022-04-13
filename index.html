@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Dongle:wght@300&family=Lato:wght@700&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOGA</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">YOGA</label>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="./download.html">store</a></li>
+      </ul>
+      <label id="icon">
+        <svg
+          id="Layer_1"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 104.35 66.78"
+        >
+          <defs>
+            <style>
+              .cls-1 {
+                fill: none;
+                stroke: #231f20;
+                stroke-miterlimit: 10;
+                stroke-width: 7px;
+              }
+            </style>
+          </defs>
+          <title>Untitled-1</title>
+          <line class="cls-1" y1="3.5" x2="104.35" y2="3.5" />
+          <line class="cls-1" x1="104.35" y1="33.39" y2="33.39" />
+          <line class="cls-1" y1="63.28" x2="104.35" y2="63.28" />
+        </svg>
+      </label>
+    </nav>
+    <section class="hero">
+      <div class="left">
+        <h1>FOCUSED</h1>
+        <p>learn yoga with a click.</p>
+        <a href="download.html" target="blank">
+          <button>
+            <span class="download">START</span>
+          </button>
+        </a>
+      </div>
+      <div class="right">
+        <img src="images/transparent yoga 2.1.png" alt="" />
+      </div>
+    </section>
+
+    <section class="second">
+      <div class="text1 fade-in">
+        <h1>Yoga studio courses</h1>
+        <h3>conducted for beginners, intermidiate and advanced</h3>
+      </div>
+      <div class="box">
+        <div class="card slide from-left">
+          <img src="images/pic1.jpg" class="box-pic" />
+          <p>Yoga session</p>
+        </div>
+        <div class="card fade-in">
+          <img src="images/pic 2.jpg" class="box-pic" />
+          <p>Class session</p>
+        </div>
+        <div class="card slide from-right">
+          <img src="images/pic3.jpg" class="box-pic" />
+          <p>Online session</p>
+        </div>
+      </div>
+    </section>
+    <script src="js/index.js"></script>
+  </body>
+</html>
